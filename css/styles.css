@@ -16,6 +16,7 @@
 
 body {
   color: var(--text, #434455);
+  background-color: var(--white-background);
 
   font-size: 16px;
   font-family: var(--primary-font);
@@ -50,9 +51,17 @@ body {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .header-logo-studio {
