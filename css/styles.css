@@ -97,6 +97,11 @@ body {
   color: var(--pressed-state, #404bbf);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;
+}
+
 .header-addres-link {
   font-style: normal;
   color: var(--text, #434455);
