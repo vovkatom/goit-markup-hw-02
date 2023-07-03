@@ -90,3 +90,14 @@ body {
   color: var(--dark, #2e2f42);
   font-weight: 500;
 }
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-addres-link:hover {
+  color: var(--pressed-state, #404bbf);
+}
+
+.header-addres-link {
+  font-style: normal;
+  color: var(--text ,#434455);
+}
