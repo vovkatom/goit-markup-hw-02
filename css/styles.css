@@ -99,7 +99,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .header-addres-link {
@@ -137,7 +137,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
-  background-color: var(--primary-Brand, #4D5AE5);
+  background-color: var(--primary-Brand, #4d5ae5);
   cursor: pointer;
 }
 
@@ -149,7 +149,14 @@ body {
   color: var(--dark, #2e2f42);
 }
 
-.main-team{
+.main-team {
   text-transform: capitalize;
-  color: #31d0aa;
+}
+
+.main-what-teg-pades {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark, #2e2f42);
 }
