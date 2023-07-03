@@ -148,3 +148,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark, #2e2f42);
 }
+
+.main-team{
+  text-transform: capitalize;
+}
