@@ -91,13 +91,46 @@ body {
   font-weight: 500;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-addres-link:hover {
+.link:hover,
+.link:focus,
+.hero-button:hover {
   color: var(--pressed-state, #404bbf);
 }
 
 .header-addres-link {
   font-style: normal;
-  color: var(--text ,#434455);
+  color: var(--text, #434455);
+}
+
+.hero {
+  background: var(--dark, #2e2f42);
+}
+
+.hero-title {
+  /* display: flex;
+  width: 496px;
+  flex-direction: column;
+  flex-shrink: 0; */
+  color: var(--white-background, #fff);
+  /* text-align: center; */
+  font-size: 56px;
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  border-radius: 4px;
+  background: var(--primary-Brand, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  background-color: var(--pressed-state);
 }
