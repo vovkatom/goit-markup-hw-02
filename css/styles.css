@@ -132,5 +132,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
-  background-color: var(--pressed-state);
+  background-color: var(--primary-Brand, #4D5AE5);
+  cursor: pointer;
+}
+
+.main-features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark, #2e2f42);
 }
