@@ -62,7 +62,13 @@ body {
 
 .list {
   list-style: none;
+  /* color: var(--dark, #2e2f42); */
 }
+
+/* .current {
+  font-weight: 500;
+  color: var(--dark);
+} */
 
 .header-logo-studio {
   /* display: flex; */
@@ -78,4 +84,9 @@ body {
   /* line-height: 21px; */
   /* letter-spacing: 0.54px; */
   /* text-transform: uppercase; */
+}
+
+.header-nav-link {
+  color: var(--dark, #2e2f42);
+  font-weight: 500;
 }
