@@ -91,6 +91,10 @@ body {
   background-color: #404bbf;
 }
 
+.header-addres {
+  font-style: normal;
+}
+
 .header-addres-link {
   font-style: normal;
   color: var(--text, #434455);
