@@ -198,3 +198,20 @@ footer {
 .footer-text {
   color: var(--light, #F4F4FD);
 }
+
+.portfolio-button {
+  font-family: var(--primary-font);  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-Brand , #4d5ae5);
+  background-color: var(--light , #F4F4FD);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-background , #FFFFFF);
+  background-color: var(--pressed-state , #404BBF);
+}
