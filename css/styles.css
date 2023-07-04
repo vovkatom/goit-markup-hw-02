@@ -151,12 +151,13 @@ body {
 
 .main-team {
   text-transform: capitalize;
-}
+  background-color: var(--light ,#F4F4FD);
+} 
 
-/* .main-what-teg-pades {
+.main-team-pages {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize;
-  color: var(--dark, #2e2f42);
-} */
+  letter-spacing: 0.02em;
+  color: var(--dark , #2e2f42);
+}
