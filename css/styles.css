@@ -17,12 +17,9 @@
 body {
   color: var(--text, #434455);
   background-color: var(--white-background);
-
   font-size: 16px;
   font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -31,8 +28,6 @@ body {
   color: var(--primary-Brand, #4d5ae5);
   font-size: 18px;
   font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -46,24 +41,22 @@ body {
   list-style: none;
 }
 
-.header-logo-studio {
-  color: var(--dark, #2e2f42);
-}
-
+.header-logo-studio,
 .header-nav-link {
   color: var(--dark, #2e2f42);
-  font-weight: 500;
 }
 
 .link:hover,
 .link:focus,
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--pressed-state, #404bbf);
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-background, #ffffff);
+  background-color: var(--pressed-state, #404bbf);
 }
 
 .header-addres {
@@ -71,7 +64,6 @@ body {
 }
 
 .header-addres-link {
-  font-style: normal;
   color: var(--text, #434455);
 }
 
@@ -82,36 +74,42 @@ body {
 .hero-title {
   color: var(--white-background, #fff);
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 
-.hero-button {
+.hero-button,
+.portfolio-button {
   background: var(--primary-Brand, #4d5ae5);
   font-family: var(--primary-font);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--primary-Brand, #4d5ae5);
-  cursor: pointer;
 }
 
-.main-features-title {
-  font-weight: 500;
+.portfolio-button {
+  background-color: var(--light, #f4f4fd);
+  color: var(--primary-Brand, #4d5ae5);
+}
+
+.main-features-title,
+.main-team-photo,
+.main-team-title,
+.portfolio-project-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark, #2e2f42);
 }
 
-.main-teg-pades {
+.main-teg-pades,
+.main-team-pages {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--dark, #2e2f42);
@@ -122,35 +120,14 @@ body {
   background-color: var(--light, #f4f4fd);
 }
 
-.main-team-pages {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--dark, #2e2f42);
-}
-
 .main-team-photo {
   background-color: var(--white-background, #ffffff);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark, #2e2f42);
-}
-
-.main-team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--text, #434455);
 }
 
@@ -158,35 +135,7 @@ footer {
   background-color: var(--dark, #2e2f42);
 }
 
-.footer-logo-studio {
-  color: var(--light, #f4f4fd);
-}
-
+.footer-logo-studio,
 .footer-text {
   color: var(--light, #f4f4fd);
-}
-
-.portfolio-button {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--primary-Brand, #4d5ae5);
-  background-color: var(--light, #f4f4fd);
-  cursor: pointer;
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus {
-  color: var(--white-background, #ffffff);
-  background-color: var(--pressed-state, #404bbf);
-}
-
-.portfolio-project-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark, #2e2f42);
 }
