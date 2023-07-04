@@ -149,6 +149,14 @@ body {
   color: var(--dark, #2e2f42);
 }
 
+.main-teg-pades {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark , #2e2f42);
+}
+
 .main-team {
   text-transform: capitalize;
   background-color: var(--light ,#F4F4FD);
@@ -160,4 +168,17 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark , #2e2f42);
+}
+
+.main-team-photo {
+  background-color: var(--white-background , #FFFFFF);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark , #2e2f42);
+}
+
+.main-team-text {
+  font-size: 16px;
 }
